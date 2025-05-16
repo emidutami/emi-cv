@@ -1,0 +1,107 @@
+/* Background dan font utama */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #f7cac9, #92a8d1);
+  color: #3c3c3c;
+  padding: 20px;
+  font-size: 14px; /* Ukuran font dikecilkan */
+}
+
+/* Container utama CV */
+.cv-container {
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading styling */
+h1,
+h2,
+h3 {
+  color: #92a8d1;
+  font-weight: bold;
+}
+
+/* Foto profil */
+.photo {
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #f7cac9;
+  margin-bottom: 20px;
+}
+
+/* Link styling */
+a {
+  color: #92a8d1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #f7cac9;
+  text-decoration: underline;
+}
+
+/* Section jarak */
+.section {
+  margin-bottom: 30px;
+}
+
+/* Tabel styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th {
+  text-align: center;
+  background-color: #f7cac9;
+  color: white;
+  padding: 10px;
+}
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* List styling */
+ul,
+ol {
+  padding-left: 20px;
+}
+
+/* Galeri Gambar */
+.section img {
+  border-radius: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.section img:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+  padding-top: 20px;
+  border-top: 2px dashed #f7cac9;
+  color: #555;
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* Animasi saat muncul */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
